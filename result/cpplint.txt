@@ -1,0 +1,4 @@
+viki@ubuntu:~/catKin_ws/src/turtlebotwalker$ cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./docs/" -e "^./results" )
+Done processing ./src/main.cpp
+Done processing ./src/Botwalker.cpp
+

@@ -1,0 +1,7 @@
+viki@ubuntu:~/catKin_ws/src/turtlebotwalker$  cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $(find . -name *.cpp |grep -vE -e "^./build/" -e "^./vendor/")
+Checking src/Botwalker.cpp...
+1/2 files checked 37% done
+Checking src/main.cpp...
+2/2 files checked 100% done
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+
