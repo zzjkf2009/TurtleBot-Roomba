@@ -72,3 +72,6 @@ rosbag info BagResult.bag
 ```
 rosbag play BagResult.bag
 ```
+
+### LICENSE
+-- MIT
